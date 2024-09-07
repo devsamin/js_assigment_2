@@ -1,0 +1,62 @@
+/* input field */
+.from-box {
+  display: flex;
+  justify-content: center;
+  /* padding: 30px; */
+  margin: 100px;
+}
+.search-name {
+  padding: 10px;
+  width: 30%;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 11px;
+}
+.submit-box {
+  padding: 10px;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 11px;
+  color: rgb(254, 251, 251);
+}
+.card-img-top {
+  width: 100%;
+  height: 200px;
+}
+.card {
+  width: 90%;
+  margin: 10px; /* card er baire spacing */
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 11px;
+}
+.show-data {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  /* display: flex;
+  justify-content: space-around; */
+}
+.add-card {
+  width: 40%;
+  height: 30%;
+  text-align: center;
+  margin: 5px;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.fa-youtube {
+  color: #ff0000;
+  padding: 5px;
+}
+.card-ditails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.footer {
+  background-color: black;
+  color: white;
+}
+.pound-item {
+  margin-left: 400px;
+  text-align: center;
+}
